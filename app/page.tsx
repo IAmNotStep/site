@@ -12,7 +12,7 @@ export default function Home() {
     "I shook hands with this cat"
   ]
 
-  const [hoverIndex, setHoverIndex] = useState(null);
+  const [hoverIndex, setHoverIndex] = useState<number | null>(null);
 
   return (
     <main className="relative h-screen bg-gradient-to-b from-indigo-500 to-orange-600">
